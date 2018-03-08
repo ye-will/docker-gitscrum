@@ -1,7 +1,7 @@
 # PHP
 
 phpfpm-gitscrum:
-  build: .
+  image: yewill/docker-gitscrum
   restart: always
   environment:
     - DEBUG=1
